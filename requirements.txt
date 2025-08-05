@@ -16,7 +16,7 @@ tensorboardX
 Jinja2
 json5
 Markdown
-matplotlib
+matplotlib==3.7.0
 matplotlib-inline
 praat-parselmouth
 Pillow
