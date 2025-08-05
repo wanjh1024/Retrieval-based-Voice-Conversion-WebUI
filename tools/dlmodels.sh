@@ -31,7 +31,7 @@ check_file_pretrained() {
   if [ -f "./assets/""$1""/""$2""" ]; then
       printf "%s in ./assets/%s checked.\n" "$2" "$1" 
   else
-      echo failed. starting download from huggingface.
+      echo failed. starting download from huggingFace-mirror.
       if command -v aria2c > /dev/null 2>&1; then
           aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://hf-mirror.com/lj1995/VoiceConversionWebUI/resolve/main/"$1"/"$2" -d ./assets/"$1" -o "$2"
           [ -f "./assets/""$1""/""$2""" ] && echo "download successful." || { echo "please try again!" && exit 1; }
