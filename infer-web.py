@@ -1615,5 +1615,5 @@ with gr.Blocks(title="RVC WebUI") as app:
             server_name="0.0.0.0",
             inbrowser=not config.noautoopen,
             server_port=config.listen_port,
-            quiet=True,
+            quiet=True,share=True
         )
