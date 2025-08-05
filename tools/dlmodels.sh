@@ -58,6 +58,18 @@ check_file_special() {
   fi
 }
 
+check_file_pretrained pretrained D32k.pth
+check_file_pretrained pretrained D40k.pth
+check_file_pretrained pretrained D48k.pth
+check_file_pretrained pretrained G32k.pth
+check_file_pretrained pretrained G40k.pth
+check_file_pretrained pretrained G48k.pth
+check_file_pretrained pretrained f0D32k.pth
+check_file_pretrained pretrained f0D40k.pth
+check_file_pretrained pretrained f0D48k.pth
+check_file_pretrained pretrained f0G32k.pth
+check_file_pretrained pretrained f0G40k.pth
+check_file_pretrained pretrained f0G48k.pth
 check_file_pretrained pretrained_v2 D32k.pth
 check_file_pretrained pretrained_v2 D40k.pth
 check_file_pretrained pretrained_v2 D48k.pth
